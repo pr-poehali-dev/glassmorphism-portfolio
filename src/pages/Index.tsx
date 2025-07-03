@@ -100,7 +100,7 @@ const Index = () => {
               <img
                 src="/img/2e678be5-341f-49e8-983f-230410a6612c.jpg"
                 alt="Алексей Иванов - Веб-разработчик"
-                className="rounded-2xl mx-auto max-w-sm w-full backdrop-blur-lg bg-white/5 border border-white/10 p-2"
+                className="mx-auto max-w-sm w-full backdrop-blur-lg bg-white/5 border border-white/10 p-2 rounded-3xl"
               />
             </div>
 
