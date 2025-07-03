@@ -95,12 +95,12 @@ const Index = () => {
               технологий. Специализируюсь на React, TypeScript и Node.js.
             </p>
 
-            {/* Tech stack image */}
+            {/* Developer portrait */}
             <div className="mb-8">
               <img
-                src="/img/d312d2d6-cf8b-46d5-9d11-0917971434e0.jpg"
-                alt="Tech stack icons"
-                className="rounded-2xl mx-auto max-w-md w-full backdrop-blur-lg bg-white/5 border border-white/10 p-6"
+                src="/img/2e678be5-341f-49e8-983f-230410a6612c.jpg"
+                alt="Алексей Иванов - Веб-разработчик"
+                className="rounded-2xl mx-auto max-w-sm w-full backdrop-blur-lg bg-white/5 border border-white/10 p-2"
               />
             </div>
 
