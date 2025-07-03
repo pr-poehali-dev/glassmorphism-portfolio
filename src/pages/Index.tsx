@@ -83,14 +83,14 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative z-10 px-6 py-20">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="backdrop-blur-lg bg-white/10 rounded-3xl p-12 border border-white/20">
-            <h1 className="text-6xl font-bold text-white mb-6">
+          <div className="backdrop-blur-lg bg-white/10 rounded-3xl p-6 md:p-12 border border-white/20">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Веб-разработчик
               <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent block">
                 Full Stack
               </span>
             </h1>
-            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto px-4 md:px-0">
               Создаю современные веб-приложения с использованием последних
               технологий. Специализируюсь на React, TypeScript и Node.js.
             </p>
@@ -100,20 +100,20 @@ const Index = () => {
               <img
                 src="/img/2e678be5-341f-49e8-983f-230410a6612c.jpg"
                 alt="Алексей Иванов - Веб-разработчик"
-                className="mx-auto max-w-sm w-full backdrop-blur-lg bg-white/5 border border-white/10 p-2 rounded-3xl"
+                className="mx-auto max-w-xs md:max-w-sm w-full backdrop-blur-lg bg-white/5 border border-white/10 p-2 rounded-3xl"
               />
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="backdrop-blur-lg bg-white/20 hover:bg-white/30 border border-white/30 text-white px-8 py-3 text-lg transition-all duration-300">
-                <Icon name="Download" className="mr-2" size={20} />
+            <div className="flex flex-col sm:flex-row gap-4 justify-center px-4 md:px-0">
+              <Button className="backdrop-blur-lg bg-white/20 hover:bg-white/30 border border-white/30 text-white px-6 md:px-8 py-3 text-base md:text-lg transition-all duration-300">
+                <Icon name="Download" className="mr-2" size={18} />
                 Скачать CV
               </Button>
               <Button
                 variant="outline"
-                className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 px-8 py-3 text-lg transition-all duration-300"
+                className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 px-6 md:px-8 py-3 text-base md:text-lg transition-all duration-300"
               >
-                <Icon name="Github" className="mr-2" size={20} />
+                <Icon name="Github" className="mr-2" size={18} />
                 GitHub
               </Button>
             </div>
