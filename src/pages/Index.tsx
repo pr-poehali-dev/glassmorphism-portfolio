@@ -95,13 +95,13 @@ const Index = () => {
               технологий. Специализируюсь на React, TypeScript и Node.js.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg">
+              <Button className="backdrop-blur-lg bg-white/20 hover:bg-white/30 border border-white/30 text-white px-8 py-3 text-lg transition-all duration-300">
                 <Icon name="Download" className="mr-2" size={20} />
                 Скачать CV
               </Button>
               <Button
                 variant="outline"
-                className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg"
+                className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 px-8 py-3 text-lg transition-all duration-300"
               >
                 <Icon name="Github" className="mr-2" size={20} />
                 GitHub
@@ -214,7 +214,7 @@ const Index = () => {
                     <Button
                       variant="outline"
                       size="sm"
-                      className="border-white/30 text-white hover:bg-white/10"
+                      className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all duration-300"
                     >
                       <Icon name="Github" className="mr-2" size={16} />
                       GitHub
@@ -222,7 +222,7 @@ const Index = () => {
                     <Button
                       variant="outline"
                       size="sm"
-                      className="border-white/30 text-white hover:bg-white/10"
+                      className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all duration-300"
                     >
                       <Icon name="ExternalLink" className="mr-2" size={16} />
                       Demo
@@ -267,21 +267,21 @@ const Index = () => {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="border-white/30 text-white hover:bg-white/10"
+                    className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all duration-300"
                   >
                     <Icon name="Github" size={20} />
                   </Button>
                   <Button
                     variant="outline"
                     size="icon"
-                    className="border-white/30 text-white hover:bg-white/10"
+                    className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all duration-300"
                   >
                     <Icon name="Linkedin" size={20} />
                   </Button>
                   <Button
                     variant="outline"
                     size="icon"
-                    className="border-white/30 text-white hover:bg-white/10"
+                    className="backdrop-blur-lg bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all duration-300"
                   >
                     <Icon name="Twitter" size={20} />
                   </Button>
@@ -310,7 +310,7 @@ const Index = () => {
                       className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-purple-400 transition-colors resize-none"
                     ></textarea>
                   </div>
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
+                  <Button className="w-full backdrop-blur-lg bg-white/20 hover:bg-white/30 border border-white/30 text-white transition-all duration-300">
                     <Icon name="Send" className="mr-2" size={20} />
                     Отправить
                   </Button>
