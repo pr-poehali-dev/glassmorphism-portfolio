@@ -95,12 +95,12 @@ const Index = () => {
               технологий. Специализируюсь на React, TypeScript и Node.js.
             </p>
 
-            {/* Full-stack image */}
+            {/* Tech stack image */}
             <div className="mb-8">
               <img
-                src="/img/92b58933-ac71-4022-9c25-9ad8c5525588.jpg"
-                alt="Full-stack developer workspace"
-                className="rounded-2xl mx-auto max-w-md w-full shadow-2xl"
+                src="/img/d312d2d6-cf8b-46d5-9d11-0917971434e0.jpg"
+                alt="Tech stack icons"
+                className="rounded-2xl mx-auto max-w-md w-full backdrop-blur-lg bg-white/5 border border-white/10 p-6"
               />
             </div>
 
