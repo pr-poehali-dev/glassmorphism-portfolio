@@ -94,6 +94,16 @@ const Index = () => {
               Создаю современные веб-приложения с использованием последних
               технологий. Специализируюсь на React, TypeScript и Node.js.
             </p>
+
+            {/* Full-stack image */}
+            <div className="mb-8">
+              <img
+                src="/img/92b58933-ac71-4022-9c25-9ad8c5525588.jpg"
+                alt="Full-stack developer workspace"
+                className="rounded-2xl mx-auto max-w-md w-full shadow-2xl"
+              />
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="backdrop-blur-lg bg-white/20 hover:bg-white/30 border border-white/30 text-white px-8 py-3 text-lg transition-all duration-300">
                 <Icon name="Download" className="mr-2" size={20} />
