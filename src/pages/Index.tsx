@@ -12,7 +12,7 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
+      title: "Интернет-магазин",
       description: "Современная торговая платформа с React и Node.js",
       tech: ["React", "TypeScript", "Node.js", "MongoDB"],
       github: "#",
@@ -20,7 +20,7 @@ const Index = () => {
       image: "/img/4d6995ec-b421-4c57-bc52-b46d3793bc55.jpg",
     },
     {
-      title: "Task Management App",
+      title: "Планировщик задач",
       description:
         "Приложение для управления задачами с real-time обновлениями",
       tech: ["Vue.js", "Firebase", "Tailwind CSS"],
@@ -29,7 +29,7 @@ const Index = () => {
       image: "/img/4acb813a-569b-4ec0-bfc7-e41dcee38507.jpg",
     },
     {
-      title: "Portfolio Website",
+      title: "Сайт-портфолио",
       description: "Адаптивный сайт-портфолио с современным дизайном",
       tech: ["React", "Vite", "Framer Motion"],
       github: "#",
